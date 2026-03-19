@@ -21,8 +21,7 @@ after that the command ```netmgrfix``` is available for the entire operating sys
 
 ## Usage
 launching in the regular mode
-```sudo netmgrfix 
-```
+```sudo netmgrfix```
 
 ## Other flags
 
