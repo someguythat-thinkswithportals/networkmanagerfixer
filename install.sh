@@ -1,5 +1,5 @@
 #setup script for putting the networkmanager file in arch linux
-
+# WARNING, THE SCRIPT IS BROKEN
 cd bin || { echo "Directory 'bin' not found"; exit 1; }
 sudo mkdir -p /usr/local/bin/netmgrfix
 sudo cp networkmanagerfixer.sh /usr/local/bin/netmgrfix/
