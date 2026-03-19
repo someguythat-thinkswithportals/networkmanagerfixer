@@ -36,4 +36,4 @@ sudo netmgrfix
 Using the -w flag, the script saves the data in /var/log/nm_fix.log. The file automatically cleans itself, keeps the last 100 records, to not fill space of the disk.
 
 ## Other things
-The ```install.sh``` command is working only on Arch Linux, to put on ther linux distros, you might need some knowledge to do this.
+The ```install.sh``` command is working only on Arch Linux, to put on other linux distros, you might need some knowledge to do this.
