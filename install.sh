@@ -2,6 +2,6 @@
 
 cd bin
 sudo mkdir /usr/local/bin/netmgrfix
-sudo networkmanager.sh /usr/local/bin/netmgrfix
+sudo networkmanagerfixer.sh /usr/local/bin/netmgrfix
 sudo chmod +x /usr/local/bin/netmgrfix
 sudo chown root:root /usr/local/bin netmgrfix
