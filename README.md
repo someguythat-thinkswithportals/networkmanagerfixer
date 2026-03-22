@@ -36,4 +36,4 @@ sudo netmgrfix
 Using the -w flag, the script saves the data in /var/log/nm_fix.log. The file automatically cleans itself, keeps the last 100 records, to not fill space of the disk.
 
 ## Other things
-The ```install.sh``` command does not work for now... idk why
+The ```install.sh``` command now works and its in the bin folder of the repository
