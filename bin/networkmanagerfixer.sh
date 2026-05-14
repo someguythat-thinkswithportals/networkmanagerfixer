@@ -109,7 +109,7 @@ echo -e "\n${GREEN}NetworkManager is now restarted! :)${NC}"
 # checking the status
 STATUS=$(nmcli -t -f STATE g)
 if echo "$STATUS" | grep -q "connected"; then
-    MSG="Status: ONLINE"
+    MSG="Status: ONLINE probably"
     echo -e "${GREEN}$MSG${NC}"
     [ "$WRITE_LOG" = true ] && echo "Result: $MSG" >> "$LOG_FILE"
 else
